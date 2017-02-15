@@ -67,18 +67,22 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
 	font-weight: 700;
     color: #4a4a4a;
 }
 
+ h6 {
+    font-weight: 700;
+    color: #4a4a4a;
+}
 
 .navbar-brand {
 	font-weight: 700;
 }
 
 .navbar-default .navbar-brand {
-	color: #1abc9c;
+	color: hj;
 }
 
 .navbar-default {
@@ -198,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #aboutwrap {	
-	background: url(../img/about.jpg) no-repeat center top;
+	background: url(../img/elephant.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
