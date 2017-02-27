@@ -67,14 +67,16 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
     color: #4a4a4a;
 }
 
- h6 {
+ h5 {
     font-weight: 700;
     color: #4a4a4a;
+    position: relative;
+    left:-10px;
 }
 
 .navbar-brand {
